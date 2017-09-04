@@ -38,3 +38,5 @@
 
 //PROVIDER TAG
 // Translates all data in 'store' that can communicate with react
+
+//React-reduc library is the communication glue between redux and react.
