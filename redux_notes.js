@@ -40,3 +40,5 @@
 // Translates all data in 'store' that can communicate with react
 
 //React-reduc library is the communication glue between redux and react.
+
+//List view figures out what items are visible to the user. Watches for any scrollevent. It reuses the same components over and over but just swaps data.
