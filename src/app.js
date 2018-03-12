@@ -6,11 +6,12 @@ import reducers from './reducers';
 import { Header } from './components/common';
 import LibraryList from './components/LibraryList';
 
+store = createStore(reducers)
 
 //import reducers and pass into CreateStore
 const App = () => {
 	return (
-		<Provider store={createStore(reducers)}>
+		<Provider store={ store }>
 			<View style={{ flex: 1 }}>
 				<Header headerText="Tech Stack" />
 				<LibraryList />
