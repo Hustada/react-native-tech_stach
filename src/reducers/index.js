@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import LibraryReducer from './LibraryReducer';
+import SelectionReducer from './SelectionReducer';
 
 
 // create reducer with libraries object that always returns an array
@@ -10,5 +11,6 @@ import LibraryReducer from './LibraryReducer';
 // { libraries: [] }
 
 export default combineReducers({
-	libraries: LibraryReducer
+	libraries: LibraryReducer,
+	selectedLibraryId: SelectionReducer
 });
